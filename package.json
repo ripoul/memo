@@ -1,0 +1,16 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "description": "My personal docs and memo",
+  "main": "README.md",
+  "repository": "https://github.com/ripoul/memo",
+  "author": "ripoul",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "dependencies": {
+    "vuepress": "^1.4.1"
+  }
+}
