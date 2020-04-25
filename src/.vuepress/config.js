@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around',
+  title: 'Memo',
+  description: 'Some memo and tips',
   plugins: [
     [
       '@vuepress/pwa',
