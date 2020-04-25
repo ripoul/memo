@@ -11,6 +11,7 @@
     "build": "vuepress build src"
   },
   "dependencies": {
-    "vuepress": "^1.4.1"
+    "vuepress": "^1.4.1",
+    "@vuepress/plugin-pwa": "^1.4.1"
   }
 }
