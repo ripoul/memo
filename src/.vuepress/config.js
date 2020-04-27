@@ -8,7 +8,10 @@ module.exports = {
         serviceWorker: true,
         updatePopup: true
       }
-    ]
+    ],
+    '@vuepress/active-header-links',
+    '@vuepress/back-to-top',
+    'reading-progress'
   ],
   head: [
     ['link', { rel: 'icon', href: '/icons/logo128.png' }],
