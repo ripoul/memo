@@ -30,7 +30,7 @@ module.exports = {
     sidebar: {
       '/development/': [
         '',
-        'autre'
+        'postgres'
       ],
       '/cuisine/': [
         ''

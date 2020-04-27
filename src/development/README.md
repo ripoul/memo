@@ -1,11 +1,3 @@
-# Dev
+# Memo dev
 
-contenue 1
-
-## Part 1
-
-contenue 1.1
-
-## Part 2
-
-contenue 1.2
+L'objectif de ce site est de documenter tout ce que je passe mon temps à rechercher. 
