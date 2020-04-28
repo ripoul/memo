@@ -15,13 +15,13 @@ yarn install
 ### Run in development mode
 
 ```sh
-vuepress dev
+yarn dev
 ```
 
 ### Build for production
 
 ```sh
-vuepress build
+yarn build
 ```
 
 ## Author
