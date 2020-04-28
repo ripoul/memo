@@ -36,7 +36,8 @@ module.exports = {
         'postgres'
       ],
       '/cuisine/': [
-        ''
+        '',
+        'pancakes'
       ],
     }
   }
