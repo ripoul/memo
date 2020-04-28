@@ -1,3 +1,3 @@
-# Memo dev
+# Développement
 
-L'objectif de ce site est de documenter tout ce que je passe mon temps à rechercher. 
+L'objectif de ce site est de documenter tout ce que je passe mon temps à rechercher.

@@ -26,8 +26,8 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Developpement', link: '/development/' },
+      { text: 'Accueil', link: '/' },
+      { text: 'Développement', link: '/development/' },
       { text: 'Cuisine', link: '/cuisine/' }
     ],
     sidebar: {
