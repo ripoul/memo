@@ -3,7 +3,7 @@ home: true
 heroImage: /icons/logo.png
 heroText: Des mémos dev et cuisine
 tagline: Parce que pourquoi pas
-actionText: Les premiers mémo dev →
+actionText: Les premiers mémos dev →
 actionLink: /development/
 features:
 - title: Simplicité
