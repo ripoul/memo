@@ -74,6 +74,8 @@ CREATE DATABASE <nom_base_de_donnee> OWNER <nom_utilisateur>;
 
 ## Docker
 
+### Docker Compose
+
 Pour un projet snapshot rapide, docker est idéal.
 
 - Le fichier `docker-compose.yml` :
@@ -101,6 +103,8 @@ POSTGRES_PASSWORD=so_emballage
 POSTGRES_DB=so_emballage
 ```
 
+La liste des variables d'env est dispo [ici](https://hub.docker.com/_/postgres).
+
 Utilisation :
 
 - Placer tous vos fichiers sql d'initialisation dans un dossier data. **Attention** : Ils sont executés par ordre alphabétique.
@@ -111,3 +115,9 @@ sudo  docker-compose pull && sudo  docker-compose build --no-cache && sudo docke
 ```
 
 Pour un example complet : [https://github.com/ripoul/MSPR-BI](https://github.com/ripoul/MSPR-BI).
+
+### Docker run
+
+```sh
+docker run -d -p 5432:5432 --name postgres -e POSTGRES_USER=so_emballage -e POSTGRES_PASSWORD=so_emballage -e POSTGRES_DB=so_emballage postgres:9.6
+```
