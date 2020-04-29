@@ -38,7 +38,8 @@ module.exports = {
       '/cuisine/': [
         '',
         'pancakes',
-        'cookies'
+        'cookies',
+        'rochers_coco'
       ],
     }
   }
