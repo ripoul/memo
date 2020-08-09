@@ -44,7 +44,8 @@ module.exports = {
         'verrine_pomme',
         'pate_sablee',
         'madeleines',
-        'gaufres'
+        'gaufres',
+        'gâteau_au_yaourt'
       ],
     }
   }
