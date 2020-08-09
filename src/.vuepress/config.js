@@ -43,7 +43,8 @@ module.exports = {
         'rochers_coco',
         'verrine_pomme',
         'pate_sablee',
-        'madeleines'
+        'madeleines',
+        'gaufres'
       ],
     }
   }
