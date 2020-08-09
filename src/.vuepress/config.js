@@ -41,7 +41,8 @@ module.exports = {
         'pancakes',
         'cookies',
         'rochers_coco',
-        'verrine_pomme'
+        'verrine_pomme',
+        'pate_sablee'
       ],
     }
   }
