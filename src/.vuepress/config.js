@@ -42,7 +42,8 @@ module.exports = {
         'cookies',
         'rochers_coco',
         'verrine_pomme',
-        'pate_sablee'
+        'pate_sablee',
+        'madeleines'
       ],
     }
   }
