@@ -14,7 +14,7 @@ tags: ['sucré']
 
 - **Farine** : 300g
 - **Oeufs** : 4
-- **Levure** chimique : 1
+- **Levure chimique** : 1
 - **Sel** : Une pincée
 - **Beurre** : une grosse noix
 - **Sucre** : 2 cuillères à soupe
