@@ -34,7 +34,8 @@ module.exports = {
     sidebar: {
       '/development/': [
         '',
-        'postgres'
+        'postgres',
+        'vim'
       ],
       '/cuisine/': [
         '',
