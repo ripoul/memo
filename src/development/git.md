@@ -13,7 +13,7 @@ Git fournit des outils pour afficher l'historique de commit de manière lisible 
 
  - affiche chaque commit sur une ligne
 
-```
+```sh
 git log --pretty=oneline
 ```
 
@@ -21,7 +21,7 @@ git log --pretty=oneline
 
  - acffiche chaque commit sur une ligne en suivant le format spécifié. [Doc sur les formats ici](https://git-scm.com/docs/pretty-formats)
 
-```
+```sh
 git log --pretty=format:"%h - %an, %ar : %s"
 ```
 
@@ -29,7 +29,7 @@ git log --pretty=format:"%h - %an, %ar : %s"
 
  - affichage des commits sous forme de graph (branching)
 
-```
+```sh
 git log --pretty=format:"%h %s" --graph
 ```
 
@@ -37,7 +37,7 @@ git log --pretty=format:"%h %s" --graph
 
  - affichage de toutes les infos détaillées des commits
 
-```
+```sh
 git log --stat
 ```
 
@@ -47,7 +47,9 @@ git log --stat
 
  - Premier commit de la branche current. Utile pour rebase notamment :
 
-`git log PARENT_BRANCH..$(git branch --show-current) --oneline --pretty=format:"%h" | tail -1`
+```sh
+git log PARENT_BRANCH..$(git branch --show-current) --oneline --pretty=format:"%h" | tail -1
+```
 
 ## Git alias et raccourci :
 
@@ -55,14 +57,14 @@ Il y a deux manière de customiser le cli de git :
 
  - avec des alias via CLI :
 
-```
+```sh
 git config --global alias.co checkout
 git co ...
 ```
 
  - avec les alias via `.gitconfig` :
 
-```
+```ini
 [alias]
 	co = checkout
 	cob = checkout -b
