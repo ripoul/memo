@@ -1,0 +1,63 @@
+# Git : des commandes utiles
+
+## Delete commit
+
+ - supprimer un commit : `git reset --hard HEAD^`
+ - supprimer X commits : `git reset --hard HEAD~X`
+ - supprimer un commit mais garder les changements : `git reset HEAD^`
+ - supprimer X commits mais garder les changements : `git reset HEAD~X`
+
+## Log
+
+Git fournit des outils pour afficher l'historique de commit de manière lisible et claire :
+
+ - `git log --pretty=oneline`
+
+![log-one-line](/img/git/log-one-line.PNG)
+
+ - `git log --pretty=format:"%h - %an, %ar : %s"`
+
+![log-one-line-format](/img/git/log-one-line-format.PNG)
+
+ - `git log --pretty=format:"%h %s" --graph`
+
+![log-one-line-graph](/img/git/log-one-line-graph.PNG)
+
+ - `git log --stat`
+
+![log-detail](/img/git/log-detail.PNG)
+
+## More cmd
+
+ - Premier commit de la branche current. Utile pour rebase notamment :
+
+`git log PARENT_BRANCH..$(git branch --show-current) --oneline --pretty=format:"%h" | tail -1`
+
+## Git alias et raccourci :
+
+Il y a deux manière de customiser le cli de git :
+
+ - avec des alias via CLI :
+
+```
+git config --global alias.co checkout
+git co ...
+```
+
+ - avec les alias via `.gitconfig` :
+
+```
+[alias]
+	co = checkout
+	cob = checkout -b
+	coo = !git fetch && git checkout
+	br = branch
+	brd = branch -d
+	brD = branch -D
+	merged = branch --merged
+	st = status
+	aa = add -A .
+	cm = commit -m
+
+    ignore_python = "!wget -O ./.gitignore https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore"
+```

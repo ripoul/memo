@@ -35,7 +35,8 @@ module.exports = {
       '/development/': [
         '',
         'postgres',
-        'vim'
+        'vim',
+        'git',
       ],
       '/cuisine/': [
         '',
