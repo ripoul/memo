@@ -12,7 +12,8 @@ module.exports = {
     '@vuepress/active-header-links',
     '@vuepress/back-to-top',
     'reading-progress',
-    '@vuepress/last-updated'
+    '@vuepress/last-updated',
+    ['vuepress-plugin-code-copy', true],
   ],
   head: [
     ['link', { rel: 'icon', href: '/icons/logo128.png' }],

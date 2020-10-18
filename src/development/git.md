@@ -11,19 +11,35 @@
 
 Git fournit des outils pour afficher l'historique de commit de manière lisible et claire :
 
- - `git log --pretty=oneline`
+ - affiche chaque commit sur une ligne
+
+```
+git log --pretty=oneline
+```
 
 ![log-one-line](/img/git/log-one-line.PNG)
 
- - `git log --pretty=format:"%h - %an, %ar : %s"`
+ - acffiche chaque commit sur une ligne en suivant le format spécifié. [Doc sur les formats ici](https://git-scm.com/docs/pretty-formats)
+
+```
+git log --pretty=format:"%h - %an, %ar : %s"
+```
 
 ![log-one-line-format](/img/git/log-one-line-format.PNG)
 
- - `git log --pretty=format:"%h %s" --graph`
+ - affichage des commits sous forme de graph (branching)
+
+```
+git log --pretty=format:"%h %s" --graph
+```
 
 ![log-one-line-graph](/img/git/log-one-line-graph.PNG)
 
- - `git log --stat`
+ - affichage de toutes les infos détaillées des commits
+
+```
+git log --stat
+```
 
 ![log-detail](/img/git/log-detail.PNG)
 
