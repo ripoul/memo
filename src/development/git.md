@@ -51,7 +51,7 @@ git log --stat
 git log PARENT_BRANCH..$(git branch --show-current) --oneline --pretty=format:"%h" | tail -1
 ```
 
-## Git alias et raccourci :
+## Git alias et raccourci
 
 Il y a deux manière de customiser le cli de git :
 
