@@ -52,7 +52,7 @@ git log PARENT_BRANCH..$(git branch --show-current) --oneline --pretty=format:"%
 ```
 
 ## Git alias et raccourci
-zaegpjeg"rnhé'opj
+zaegpjeg"rnhé'opjzegjpgeaj
 Il y a deux manière de customiser le cli de git :
 
  - avec des alias via CLI :
