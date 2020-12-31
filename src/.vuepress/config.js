@@ -54,7 +54,8 @@ module.exports = {
         'crepe',
         'creme_anglaise',
         'bottereaux',
-        'risotto'
+        'risotto',
+        'sauce_bearnaise'
       ],
     }
   }
