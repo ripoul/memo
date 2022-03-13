@@ -55,7 +55,8 @@ module.exports = {
         'creme_anglaise',
         'bottereaux',
         'risotto',
-        'sauce_bearnaise'
+        'sauce_bearnaise',
+        'gateau_au_chocolat'
       ],
     }
   }
