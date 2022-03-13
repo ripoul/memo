@@ -4,8 +4,8 @@ tags: ['sucré']
 
 # Gateau au chocolat
 
-**Portions** : 6 personnes
-**Temps de préparation** : 15min
+**Portions** : 6 personnes  
+**Temps de préparation** : 15min  
 **Temps de cuisson** : 20min/25min
 
 <TagLinks />
