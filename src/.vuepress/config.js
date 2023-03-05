@@ -56,7 +56,8 @@ module.exports = {
         'bottereaux',
         'risotto',
         'sauce_bearnaise',
-        'gateau_au_chocolat'
+        'gateau_au_chocolat',
+        'galette_des_rois'
       ],
     }
   }
