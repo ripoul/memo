@@ -7,8 +7,8 @@
   "author": "ripoul",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
   },
   "dependencies": {
     "@vuepress/plugin-active-header-links": "^1.4.1",
