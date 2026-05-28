@@ -11,6 +11,9 @@ importers:
       '@docusaurus/core':
         specifier: ^3.0.0
         version: 3.10.1(@mdx-js/react@3.1.1(@types/react@19.2.15)(react@19.2.6))(debug@4.4.3)(postcss@8.5.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.8.3)
+      '@docusaurus/plugin-content-docs':
+        specifier: ^3.10.1
+        version: 3.10.1(@mdx-js/react@3.1.1(@types/react@19.2.15)(react@19.2.6))(debug@4.4.3)(postcss@8.5.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.8.3)
       '@docusaurus/plugin-pwa':
         specifier: ^3.10.1
         version: 3.10.1(@docusaurus/plugin-content-docs@3.10.1(@mdx-js/react@3.1.1(@types/react@19.2.15)(react@19.2.6))(postcss@8.5.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.8.3))(@mdx-js/react@3.1.1(@types/react@19.2.15)(react@19.2.6))(postcss@8.5.15)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.8.3)

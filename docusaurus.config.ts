@@ -27,6 +27,7 @@ const config: Config = {
   },
 
   plugins: [
+    './plugins/tagsData.js',
     [
       '@docusaurus/plugin-pwa',
       {
