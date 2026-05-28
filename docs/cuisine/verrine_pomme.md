@@ -7,7 +7,6 @@ tags: ['sucré']
 **Portions** : 8 personnes  
 **Temps de préparation** : 20min  
 
-<TagLinks />
 
 ## Ingrédients
 

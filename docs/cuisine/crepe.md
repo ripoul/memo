@@ -8,7 +8,6 @@ tags: ['sucré']
 **Temps de préparation** : 10min  
 **Temps de cuisson** : 3min par crêpe
 
-<TagLinks />
 
 ## Ingrédients
 

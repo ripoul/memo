@@ -7,7 +7,6 @@ tags: ['sucré']
 **Portions** : 32 madeleines  
 **Temps de préparation** : 45min  
 
-<TagLinks />
 
 ## Ingrédients
 

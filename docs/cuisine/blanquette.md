@@ -6,7 +6,6 @@ tags: ['salé']
 
 **Temps de préparation** : 1h
 
-<TagLinks />
 
 ## Ingrédients
 

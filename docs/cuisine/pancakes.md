@@ -8,7 +8,6 @@ tags: ['sucré']
 **Temps de préparation** : 10min  
 **Temps de cuisson** : 5min par fournée de pancakes
 
-<TagLinks />
 
 ## Ingrédients
 

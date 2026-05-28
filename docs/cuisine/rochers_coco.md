@@ -8,7 +8,6 @@ tags: ['sucré']
 **Temps de préparation** : 5min  
 **Temps de cuisson** : 10min par fournée de rochers
 
-<TagLinks />
 
 ## Ingrédients
 

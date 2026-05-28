@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-yarn install
+pnpm install
 ```
 
 ## Usage
@@ -15,13 +15,13 @@ yarn install
 ### Run in development mode
 
 ```sh
-yarn dev
+pnpm start
 ```
 
 ### Build for production
 
 ```sh
-yarn build
+pnpm build
 ```
 
 ## Author

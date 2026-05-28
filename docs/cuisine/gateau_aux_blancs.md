@@ -8,7 +8,6 @@ tags: ['sucré']
 **Temps de préparation** : 10min  
 **Temps de cuisson** : 30min 200°c
 
-<TagLinks />
 
 ## Ingrédients
 

@@ -8,7 +8,6 @@ tags: ['sucré', 'salé']
 **Temps de préparation** : 20min  
 **Temps de cuisson** : 15min par fournée de cookies
 
-<TagLinks />
 
 ## Ingrédients
 
