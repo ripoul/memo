@@ -5,12 +5,15 @@
   "repository": "https://github.com/ripoul/memo",
   "author": "ripoul",
   "license": "MIT",
+  "packageManager": "pnpm@11.22.0",
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "lint": "eslint .",
+    "prepare": "husky"
   },
   "dependencies": {
     "@docusaurus/core": "^3.0.0",
@@ -28,7 +31,16 @@
     "@docusaurus/module-type-aliases": "^3.0.0",
     "@docusaurus/tsconfig": "^3.0.0",
     "@docusaurus/types": "^3.0.0",
-    "typescript": "~5.8.0"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.11.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.3.0",
+    "prettier": "^3.9.6",
+    "typescript": "~5.8.0",
+    "typescript-eslint": "^8.67.0"
   },
   "engines": {
     "node": ">=18.0"
@@ -44,5 +56,12 @@
       "last 3 firefox version",
       "last 3 safari version"
     ]
+  },
+  "lint-staged": {
+    "{eslint.config.js,prettier.config.mjs,docusaurus.config.ts,sidebars.ts,src/**/*.ts,src/**/*.tsx,plugins/**/*.js}": [
+      "eslint --fix --max-warnings=0",
+      "prettier --write"
+    ],
+    "{package.json,tsconfig*.json,docs/**/*.md,**/*.md,**/*.yml,**/*.yaml,static/**/*.svg,src/**/*.css}": "prettier --write"
   }
 }
