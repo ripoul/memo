@@ -1,0 +1,36 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    open-pull-requests-limit: 10
+    versioning-strategy: increase
+    commit-message:
+      prefix: '⬆️'
+      prefix-development: '⬆️'
+    assignees: ['ripoul']
+    groups:
+      production-dependencies:
+        dependency-type: 'production'
+      development-dependencies:
+        dependency-type: 'development'
+    cooldown:
+      # Dependabot does not understand the npmMinimalAgeGate setting in
+      # .yarnrc.yml, so we set a cooldown here to obtain the same effect. Once
+      # https://github.com/dependabot/dependabot-core/issues/13678 is resolved,
+      # we can remove this cooldown and rely on dependabot respecting the
+      # npmMinimalAgeGate setting.
+      #
+      # This also affects PNPM:
+      # https://github.com/dependabot/dependabot-core/issues/13405
+      default-days: 3
+    ignore:
+      - dependency-name: 'typescript'
+        update-types:
+          - version-update:semver-major
