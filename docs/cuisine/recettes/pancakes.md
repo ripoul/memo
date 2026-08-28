@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Pancakes'
 ---
-
-# Pancakes
 
 **Portions** : 4/6 personnes  
 **Temps de préparation** : 10min  

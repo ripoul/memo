@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Galette des rois'
 ---
-
-# Galette des rois
 
 **Portions** : 6 personnes  
 **Temps de préparation** : 20min  

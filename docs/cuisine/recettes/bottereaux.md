@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Bottereaux'
 ---
-
-# Bottereaux
 
 **Portions** : 6 personnes  
 **Temps de préparation** : 15min  

@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Gâteau au yaourt'
 ---
-
-# Gâteau au yaourt
 
 **Portions** : 4 personnes  
 **Temps de préparation** : 5min  

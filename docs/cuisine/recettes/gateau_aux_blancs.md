@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Gâteau aux blancs'
 ---
-
-# Gâteau aux blancs
 
 **Portions** : 6 personnes  
 **Temps de préparation** : 10min  

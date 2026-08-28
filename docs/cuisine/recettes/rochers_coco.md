@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Rochers coco'
 ---
-
-# Rochers coco
 
 **Portions** : 12 pieces
 **Temps de préparation** : 5min  

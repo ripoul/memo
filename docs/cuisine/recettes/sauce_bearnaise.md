@@ -1,8 +1,7 @@
 ---
 tags: ['salé']
+title: 'Sauce béarnaise'
 ---
-
-# Sauce béarnaise
 
 **Portions** : 6 personnes  
 **Temps de préparation** : 30min

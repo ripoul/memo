@@ -1,8 +1,7 @@
 ---
 tags: ['salé']
+title: 'Blanquette de veau'
 ---
-
-# Blanquette de veau
 
 **Temps de préparation** : 1h
 

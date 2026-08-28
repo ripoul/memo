@@ -1,8 +1,7 @@
 ---
 tags: ['sucré', 'salé']
+title: 'Pâte sablée'
 ---
-
-# Pâte sablée
 
 **Portions** : 1 pâte  
 **Temps de préparation** : 20min  

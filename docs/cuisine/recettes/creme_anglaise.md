@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Crème anglaise'
 ---
-
-# Crème anglaise
 
 **Portions** : 6 personnes  
 **Temps de préparation** : 10min  

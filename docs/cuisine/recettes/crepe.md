@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Crêpes'
 ---
-
-# Crêpes
 
 **Portions** : 6 personnes  
 **Temps de préparation** : 10min  

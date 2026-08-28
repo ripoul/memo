@@ -1,8 +1,7 @@
 ---
 tags: ['salé']
+title: 'Risotto'
 ---
-
-# Risotto
 
 **Portions** : 4-6 personnes  
 **Temps de préparation** : 20min  

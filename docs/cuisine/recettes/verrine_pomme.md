@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Verrine pomme caramel spéculoos'
 ---
-
-# Verrine pomme caramel spéculoos
 
 **Portions** : 8 personnes  
 **Temps de préparation** : 20min

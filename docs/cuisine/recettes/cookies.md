@@ -1,8 +1,7 @@
 ---
 tags: ['sucré']
+title: 'Cookies'
 ---
-
-# Cookies
 
 **Portions** : 3/4 personnes  
 **Temps de préparation** : 10min  
