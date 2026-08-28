@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #1c1e21;
+  font: 100%/1.65 system-ui, -apple-system, 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans',
+    sans-serif, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.recipe-preview {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.recipe-preview__title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem;
+}
+
+.recipe-preview__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Valeurs alignées sur le composant natif `theme-doc-tag` (bordure + texte coloré, pas de fond) */
+.recipe-preview__tag {
+  background-color: transparent;
+  border: 1px solid #dadde1;
+  border-radius: 0.4rem;
+  color: #3eaf7c;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.5rem 0.3rem;
+}
+
+.markdown h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1.25rem;
+}
+
+.markdown h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1.25rem;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol {
+  margin: 0 0 1.25rem;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 2rem;
+}
+
+.markdown li > p {
+  margin-bottom: 0;
+}
+
+.markdown strong {
+  font-weight: 700;
+}
+
+.markdown a {
+  color: #3eaf7c;
+  text-decoration: none;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+}
+
+.markdown code {
+  background-color: #f6f7f8;
+  border-radius: 0.2rem;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: 90%;
+  padding: 0.1rem 0.3rem;
+}
+
+.markdown hr {
+  border: none;
+  border-top: 1px solid #dadde1;
+  margin: 2rem 0;
+}

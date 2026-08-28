@@ -7,7 +7,6 @@ tags: ['salé']
 **Portions** : 6 personnes  
 **Temps de préparation** : 30min
 
-
 ## Ingrédients
 
 - **Jaunes d’œuf** : 2

@@ -4,10 +4,9 @@ tags: ['sucré']
 
 # Rochers coco
 
-**Portions** : 12 pieces 
+**Portions** : 12 pieces
 **Temps de préparation** : 5min  
 **Temps de cuisson** : 10min par fournée de rochers
-
 
 ## Ingrédients
 

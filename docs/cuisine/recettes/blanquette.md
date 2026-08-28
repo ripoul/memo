@@ -6,7 +6,6 @@ tags: ['salé']
 
 **Temps de préparation** : 1h
 
-
 ## Ingrédients
 
 - **Viande blanquette** : tendron, poitrine, bas morceau, jarret de veau

@@ -1,0 +1,76 @@
+# Configuration Decap CMS — ajout de recettes.
+# Doc : https://decapcms.org/docs/configuration-options/
+
+backend:
+  name: github
+  repo: ripoul/memo
+  branch: master
+  # Le site n'est pas hébergé sur Netlify : l'auth GitHub passe par un
+  # provider OAuth self-hosted (Cloudflare Worker).
+  base_url: https://memo-decap-proxy.ripoul.workers.dev
+  auth_endpoint: auth
+  # Convention gitmoji du repo : préfixer les commits par un emoji.
+  commit_messages:
+    create: '✨ Create {{collection}} "{{slug}}"'
+    update: '✨ Update {{collection}} "{{slug}}"'
+    delete: '✨ Delete {{collection}} "{{slug}}"'
+    uploadMedia: '✨ Upload "{{path}}"'
+    deleteMedia: '✨ Delete "{{path}}"'
+
+# Permet de tester en local avec `npx decap-server` (proxy git local, sans auth).
+# Sans effet en production.
+local_backend: true
+
+locale: 'fr'
+
+site_url: https://memo.ripoul.fr
+display_url: https://memo.ripoul.fr
+logo_url: /icons/logo128.png
+
+media_folder: static/img/cuisine
+public_folder: /img/cuisine
+
+# Aligne les fichiers générés sur la convention existante (snake_case, sans accents) :
+# "Gâteau au yaourt" -> gateau_au_yaourt.md
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+  sanitize_replacement: '_'
+
+collections:
+  - name: recettes
+    label: Recettes
+    label_singular: Recette
+    description: Les recettes de cuisine du site.
+    folder: docs/cuisine/recettes
+    create: true
+    slug: '{{slug}}'
+    extension: md
+    format: frontmatter
+    identifier_field: title
+    sortable_fields: [title, tags]
+    fields:
+      - label: Titre
+        name: title
+        widget: string
+        hint: Sert de titre de page et de nom de fichier.
+      - label: Tags
+        name: tags
+        widget: list
+        default: [sucré]
+        hint: 'Ex. : sucré, salé'
+      - label: Recette
+        name: body
+        widget: markdown
+        default: |
+          **Portions** : 4 personnes  
+          **Temps de préparation** : XX min  
+          **Temps de cuisson** : XX min
+
+          ## Ingrédients
+
+          - **Ingrédient** : quantité
+
+          ## Instructions
+
+          1. Première étape
