@@ -8,7 +8,6 @@ tags: ['sucré', 'salé']
 **Temps de préparation** : 20min  
 **Temps de cuisson** : 15min par fournée de cookies
 
-
 ## Ingrédients
 
 - **Farine** : 250g
@@ -16,7 +15,6 @@ tags: ['sucré', 'salé']
 - **Sucre** : 50g
 - **Oeuf** : 1
 - **Sel** : une pincée
-
 
 ## Instructions
 

@@ -8,7 +8,6 @@ tags: ['sucré']
 **Temps de préparation** : 5min  
 **Temps de cuisson** : 30min 180°c
 
-
 ## Ingrédients
 
 - **Yaourt** : 1 pot (velouté)
