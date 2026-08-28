@@ -5,7 +5,7 @@ tags:
 ---
 **Portions** : 4 personnes\
 **Temps de préparation** : 10min\
-**Temps de cuisson** : XX min
+**Temps de cuisson** : 45min
 
 ## Ingrédients
 
